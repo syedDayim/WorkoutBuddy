@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const connectDB = (db_url) => {
+const connectDB = (db_url, port) => {
   mongoose
     .connect(db_url)
     .then(() => {
